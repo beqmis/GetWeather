@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DA516C782EB389E000DAF3D1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA516C772EB389E000DAF3D1 /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DAA8C89C2EB14341002190DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -58,11 +62,6 @@
 			path = GetWeatherUITests;
 			sourceTree = "<group>";
 		};
-		DAA8C8C02EB1498A002190DF /* New Folder */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "New Folder";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA516C782EB389E000DAF3D1 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,14 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA516C762EB389E000DAF3D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DAA8C87C2EB1433E002190DF = {
 			isa = PBXGroup;
 			children = (
 				DAA8C8872EB1433E002190DF /* GetWeather */,
 				DAA8C89E2EB14341002190DF /* GetWeatherTests */,
 				DAA8C8A82EB14341002190DF /* GetWeatherUITests */,
+				DA516C762EB389E000DAF3D1 /* Frameworks */,
 				DAA8C8862EB1433E002190DF /* Products */,
-				DAA8C8C02EB1498A002190DF /* New Folder */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,10 +135,10 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DAA8C8872EB1433E002190DF /* GetWeather */,
-				DAA8C8C02EB1498A002190DF /* New Folder */,
 			);
 			name = GetWeather;
 			packageProductDependencies = (
+				DA516C772EB389E000DAF3D1 /* SnapKit */,
 			);
 			productName = GetWeather;
 			productReference = DAA8C8852EB1433E002190DF /* GetWeather.app */;
@@ -215,6 +222,9 @@
 			);
 			mainGroup = DAA8C87C2EB1433E002190DF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DA516C5D2EB3882100DAF3D1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DAA8C8862EB1433E002190DF /* Products */;
 			projectDirPath = "";
@@ -300,7 +310,7 @@
 				INFOPLIST_FILE = GetWeather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,7 +341,7 @@
 				INFOPLIST_FILE = GetWeather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -590,6 +600,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA516C5D2EB3882100DAF3D1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA516C772EB389E000DAF3D1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA516C5D2EB3882100DAF3D1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DAA8C87D2EB1433E002190DF /* Project object */;
 }
