@@ -58,6 +58,11 @@
 			path = GetWeatherUITests;
 			sourceTree = "<group>";
 		};
+		DAA8C8C02EB1498A002190DF /* New Folder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "New Folder";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,7 @@
 				DAA8C89E2EB14341002190DF /* GetWeatherTests */,
 				DAA8C8A82EB14341002190DF /* GetWeatherUITests */,
 				DAA8C8862EB1433E002190DF /* Products */,
+				DAA8C8C02EB1498A002190DF /* New Folder */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DAA8C8872EB1433E002190DF /* GetWeather */,
+				DAA8C8C02EB1498A002190DF /* New Folder */,
 			);
 			name = GetWeather;
 			packageProductDependencies = (
