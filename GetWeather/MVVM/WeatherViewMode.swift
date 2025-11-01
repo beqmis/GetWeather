@@ -9,7 +9,7 @@ import Foundation
 
 
 
-class WeatherViewMode
+class WeatherViewModel
 {
     
 }
